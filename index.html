@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EV Market Performance and Insights</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: #edf2f7;
+      line-height: 1.6;
+    }
+    header {
+      padding: 65px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #102c36, #172554);
+    }
+    header h1 { font-size: clamp(30px, 5vw, 48px); margin: 0 0 12px; }
+    header p { max-width: 700px; margin: auto; color: #cbd5e1; }
+    nav { text-align: center; padding: 16px; background: #111c2e; }
+    nav a { color: #7ee7c5; margin: 0 12px; text-decoration: none; }
+    main { max-width: 1050px; margin: auto; padding: 30px 20px; }
+    section {
+      background: #131f32;
+      padding: 25px;
+      margin: 22px 0;
+      border: 1px solid #29374c;
+      border-radius: 14px;
+    }
+    h2 { color: #7ee7c5; margin-top: 0; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 15px;
+    }
+    .item {
+      padding: 18px;
+      border-radius: 10px;
+      background: #1c2b41;
+    }
+    .item h3 { margin-top: 0; color: #fff; }
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      margin: 8px 6px 0 0;
+      border-radius: 8px;
+      background: #7ee7c5;
+      color: #10202b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button.secondary { background: #253a54; color: #fff; }
+    footer { text-align: center; padding: 25px; color: #9caabd; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EV Market Performance and Insights</h1>
+    <p>Exploring electric vehicle market trends, sales, manufacturer performance, driving range and battery insights through data visualization.</p>
+    <a class="button" href="https://public.tableau.com/app/profile/ananya.gite7163/viz/EVMarketPerformanceandInsights-Dashboard/Dashboard1?publish=yes" target="_blank" rel="noopener">Explore Dashboard</a>
+    <a class="button secondary" href="https://public.tableau.com/app/profile/ananya.gite7163/viz/EVMarketPerformanceandInsights-Story/Story1?publish=yes" target="_blank" rel="noopener">View Project Story</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#visualizations">Visualizations</a>
+    <a href="#links">Project Links</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>Project Overview</h2>
+      <p>This project presents an exploratory view of the electric vehicle market using Tableau visualizations. It brings together different views of vehicle categories, sales trends, manufacturer market share, regional distribution, vehicle price and range, and battery performance.</p>
+      <p>The aim is to make market information easier to explore and support data-informed discussion about the EV industry.</p>
+    </section>
+
+    <section id="visualizations">
+      <h2>Key Visualizations</h2>
+      <div class="grid">
+        <div class="item"><h3>Sales by Category</h3><p>Explore sales across vehicle categories.</p></div>
+        <div class="item"><h3>Global EV Map</h3><p>Explore the geographic distribution represented in the data.</p></div>
+        <div class="item"><h3>Sales Trend by Year</h3><p>Review sales trends across model years.</p></div>
+        <div class="item"><h3>Price versus Range</h3><p>Compare vehicle prices and driving ranges.</p></div>
+        <div class="item"><h3>Battery Degradation</h3><p>Explore the battery degradation view.</p></div>
+        <div class="item"><h3>Top Models by Horsepower</h3><p>Compare horsepower across vehicle models.</p></div>
+        <div class="item"><h3>Manufacturer Market Share</h3><p>Review the manufacturer market-share view.</p></div>
+        <div class="item"><h3>Market Share by Region</h3><p>Explore regional market distribution.</p></div>
+        <div class="item"><h3>Summary KPIs</h3><p>See the summary indicators presented in the dashboard.</p></div>
+      </div>
+    </section>
+
+    <section id="links">
+      <h2>Project Resources</h2>
+      <p>Open the interactive Tableau visualizations or watch the project demonstration.</p>
+      <a class="button" href="https://public.tableau.com/app/profile/ananya.gite7163/viz/EVMarketPerformanceandInsights-Dashboard/Dashboard1?publish=yes" target="_blank" rel="noopener">Tableau Dashboard</a>
+      <a class="button secondary" href="https://public.tableau.com/app/profile/ananya.gite7163/viz/EVMarketPerformanceandInsights-Story/Story1?publish=yes" target="_blank" rel="noopener">Tableau Story</a>
+      <a class="button secondary" href="https://drive.google.com/file/d/1PFOmVUzDGpUHe4fiQkLiqmUJZFbXm7vY/view?usp=sharing" target="_blank" rel="noopener">Demo Video</a>
+    </section>
+
+    <section>
+      <h2>Tools and Technologies</h2>
+      <p>Tableau Public, HTML, CSS, JavaScript and GitHub Pages.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>EV Market Performance and Insights · Project by Ananya Gite</p>
+  </footer>
+</body>
+</html>
