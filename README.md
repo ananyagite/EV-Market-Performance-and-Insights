@@ -26,7 +26,7 @@ The project uses Tableau dashboards and visualizations to present market informa
 
 ## Project Links
 
-- **Live Website:** https://ananya-gite.github.io/EV-Market-Performance-and-Insights/
+- **Live Website:** https://ananyagite.github.io/EV-Market-Performance-and-Insights/
 - **Tableau Dashboard:** https://public.tableau.com/app/profile/ananya.gite7163/viz/EVMarketPerformanceandInsights-Dashboard/Dashboard1?publish=yes
 - **Tableau Story:** https://public.tableau.com/app/profile/ananya.gite7163/viz/EVMarketPerformanceandInsights-Story/Story1?publish=yes
 - **Project Demonstration Video:** https://drive.google.com/file/d/1PFOmVUzDGpUHe4fiQkLiqmUJZFbXm7vY/view?usp=sharing
